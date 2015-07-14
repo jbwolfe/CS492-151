@@ -15,12 +15,14 @@ public class Animal {
 	public String getName() {
 		return this.name;
 	}
+	
 	public void setHeight(double newHeight) {
 		this.height = newHeight;
 	}
 	public double getHeight() {
 		return this.height;
 	}
+	
 	public void setWeight(int newWeight) {
 		if(newWeight > 0){
 			this.weight = newWeight;
@@ -32,18 +34,21 @@ public class Animal {
 	public int getWeight() {
 		return this.weight;
 	}
+
 	public void setFavFood(String newFavFood) {
 		this.favFood = newFavFood;
 	}
 	public String getFavFood() {
 		return this.favFood;
 	}
+
 	public void setSpeed(double newSpeed) {
 		this.speed = newSpeed;
 	}
 	public double getSpeed() {
 		return this.speed;
 	}
+	
 	public void setSound(String newSound) {
 		this.sound = newSound;
 	}
@@ -51,5 +56,11 @@ public class Animal {
 		return this.sound;
 	}
 	
+	public String tryToFly() {
+		return this.flyingType.fly();
+	}
 	
+	public void setFlyingAbility(Flys newFlyType) {
+		this.flyingType = newFlyType;
+	}
 }
