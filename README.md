@@ -1,30 +1,31 @@
-# Design Patterns for Modern Web Development
+# Gang of Four Design Patterns
+###### (Incomplete list...)
 
 ---
 
-#### Course Description
-The Study of design patterns with an overview of modern web development. Topics include, but are not limited to:
-  - Developing a definition for “modern web development”. This will involve dissecting that definition as to develop generalized categories.
-  - Covering commonly used design patterns which can later be applied to the categories of modern web development.
-
-Students will present examples at the end of the semester apply design patterns to modern web examples. The intended goal of these examples, though be them small, is to give students an understanding to proper web development and present design patterns in the idiomatically correct style.
-
-#### Learning Outcomes
-At the end of the this course students should be able to:
- - Describe the development of modern web applications.
- - Be familiar with proper web development and able to choose and apply specific design patterns for any given web application model or problem.
-
-#### Course Outline
-  - Modern Web Developmet
-    - Semantic web, responsive web design, web components, APIs, Web Apps
-  - Design Patterns recommended by the gang of four
-    - Abstract Factory, Adapter, Composite, Decorator, Factory Method, Observer, Strategy, Template Method
-  - Design Patterns recommended for JavaScript
-    - Constructor, Module, Revealing Module, Singleton, Mediator, Prototype, Command, Facade, Mixin, Flyweight
-  - MV[X] Patterns
-  - Design Patterns in jQuery
-    - Iterator, Lazy Initialization, Proxy, Builder
-  - The MEAN Stack
+#### Strategy Design Pattern
+#### Observer Design Pattern
+#### Factory Design Pattern
+#### Abstract Design Pattern
+#### Singleton Design Pattern
+#### Builder Design Pattern
+#### Prototype Design Pattern
+#### Decorator Design Pattern
+#### Command Design Pattern
+#### Adapter Design Pattern
+#### Facade Design Pattern
+#### Bridge Design Pattern
+#### Template Design Pattern
+#### Iterator Design Pattern
+#### Composite Design Pattern
+#### Flyweight Design Pattern
+#### State Design Pattern
+#### Proxy Design Pattern
+#### Chain of Responsibility Design Pattern
+#### Interpreter Design Pattern
+#### Mediator Design Pattern
+#### Memento Design Pattern
+#### Visitor Design Pattern
 
   ---
 
