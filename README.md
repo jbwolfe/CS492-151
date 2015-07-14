@@ -26,6 +26,9 @@ At the end of the this course students should be able to:
     - Iterator, Lazy Initialization, Proxy, Builder
   - The MEAN Stack
 
+#### Course Material
+Material for each section of the course can be found in the branches of this repository. The README for each branch will cover material in further detail.
+
   ---
 
   All course content is available under The MIT License.
