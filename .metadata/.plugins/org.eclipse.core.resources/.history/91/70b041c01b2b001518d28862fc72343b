@@ -1,0 +1,29 @@
+
+public class Robot implements RobotPlan {
+
+	@Override
+	public void setRobotHead(String head) {
+		// TODO Auto-generated method stub
+		
+		
+	}
+
+	@Override
+	public void setRobotTorso(String torso) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void setRobotArms(String arms) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void setRobotLegs(String legs) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}
