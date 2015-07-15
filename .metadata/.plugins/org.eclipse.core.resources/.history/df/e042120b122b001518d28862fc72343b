@@ -1,0 +1,9 @@
+
+public class EnemyShipBuilding {
+
+	public EnemyShip orderTheShip(String string) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

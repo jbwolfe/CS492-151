@@ -1,0 +1,12 @@
+
+public class Main {
+	public static void main(String[] args) {
+		EnemyShipBuilding MakeUFOs = new UFOEnemyShipBuilding();
+		
+		EnemyShip theGrunt = MakeUFOs.orderTheShip("UFO");
+		System.out.prinln(theGrunt + "\n");
+		
+		EnemyShip theMothership = MakeUFOs.orderTheShip("UFO MOTHERSHIP");
+		System.out.prinln(theMothership + "\n");
+	}
+}
