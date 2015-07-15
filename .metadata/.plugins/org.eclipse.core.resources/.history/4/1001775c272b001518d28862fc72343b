@@ -1,0 +1,8 @@
+
+public class TVRemote {
+
+	public static ElecronicDevice getDevice() {
+		return new Television;
+	}
+	
+}

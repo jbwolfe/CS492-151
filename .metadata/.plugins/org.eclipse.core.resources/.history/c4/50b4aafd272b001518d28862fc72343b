@@ -1,0 +1,15 @@
+
+public class DeviceButton implements Command {
+	Command theCommand;
+	
+	public DeviceButton(Command newCommand){
+		this.theCommand = newCommand;
+	}
+
+	@Override
+	public void press() {
+		// TODO Auto-generated method stub
+		theCommand.execute();
+	}
+
+}
