@@ -1,0 +1,12 @@
+
+public abstract class EnemyShip {
+	private String name;
+	private double amtDamage;
+	
+	public void followHeroShip();
+	public void displayEnemyShip();
+	public void enemyShipShoots();
+	public void setDamage(double newDamage);
+	public double getDamage();
+	
+}

@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class Main {
+	public static void main(String[] args) {
+		EnemyShipFactory shipFactory = new EnemyShipFactory();
+		
+		EnemyShip theEnemy = null;
+		
+		Scanner userInput = new Scanner(System.in);
+
+		doStuffEnemy(theEnemy);
+	}
+	
+	public void doStuffEnemey(EnemyShip anEnemyShip) {
+		anEnemyShip.displayEnemyShip();
+		anEnemyShip.followHeroShip();
+		anEnemyShip.enemyShipShoots();
+	}
+}

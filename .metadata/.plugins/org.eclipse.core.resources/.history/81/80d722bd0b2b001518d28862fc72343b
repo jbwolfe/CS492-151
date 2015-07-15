@@ -1,0 +1,7 @@
+
+public class MothershipUFOEnemyShip extends EnemyShip {
+	public MothershipUFOEnemyShip() {
+		setName("The Mothership");
+		setDamage(40.0);
+	}
+}
