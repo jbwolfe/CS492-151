@@ -1,0 +1,14 @@
+
+public class FundsCheck {
+	private double funds = 1000.00; 
+	
+	public double getFunds() { return this.funds; }
+	
+	public void withdrawFunds(double fundsWithdrawn) {
+		this.funds -= fundsWithdrawn;
+	}
+	
+	public void depositFunds(double fundsDeposited) {
+		
+	}
+}

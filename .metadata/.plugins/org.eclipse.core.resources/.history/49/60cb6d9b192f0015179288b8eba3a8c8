@@ -1,0 +1,20 @@
+
+public class BankAccountFacade {
+	private int accountNumber;
+	private int securityCode;
+	
+	WelcomeToBank bankWelcome;
+	AccountNumberCheck accountChecker;
+	SecurityCodeCheck codeChecker;
+	FundsCheck fundChecker;
+	
+	public BankAccountFacade(int newAccountNumber, int newSecurityCode) {
+		this.accountNumber = newAccountNumber;
+		this.securityCode = newSecurityCode;
+		
+		this.bankWelcome = new WelcomeToBank();
+		this.accountChecker = new AccountNumberCheck();
+		this.codeChecker = new SecurityCodeCheck();
+		this.fundChecker = new FundsCheck();
+	}
+}

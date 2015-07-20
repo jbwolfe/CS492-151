@@ -1,0 +1,4 @@
+
+public class FundsCheck {
+	private double funds = 1000.00; 
+}

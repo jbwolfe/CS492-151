@@ -1,0 +1,36 @@
+import java.util.Random;
+
+public class EnemyRobotAdapter implements EnemyAttacker{
+
+	EnemyRobot theRobot;
+	
+	public EnemyRobotAdapter(EnemyRobot newRobot) {
+		this.theRobot = newRobot;
+	}
+	
+	@Override
+	public void fireWeapon() {
+		Random attackMethod = new Random();
+		
+		switch(attackMethod.nextInt(100)%2) {
+		case 0:
+			theRobot.smashWithHands();
+		case 1:
+			theRobot.smashWithFeet();
+		default:
+			System.out.println("The Robot Misses");
+		}
+	}
+
+	@Override
+	public void driveForward() {
+		
+	}
+
+	@Override
+	public void assignDriver(String driverName) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}
