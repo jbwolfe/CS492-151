@@ -1,0 +1,23 @@
+import java.util.ArrayList;
+import java.util.Enumeration;
+import java.util.Hashtable;
+import java.util.Iterator;
+
+public class DiscJockey { 
+	SongIterator iter70sSongs;
+	SongIterator iter80sSongs;
+	SongIterator iter90sSongs;
+	
+	public DiscJockey(SongIterator newSongsOf70s, 
+					  SongIterator newSongsOf80s,
+					  SongIterator newSongsOf90s) {
+
+		this.iter70sSongs = newSongsOf70s;
+		this.iter80sSongs = newSongsOf80s;
+		this.iter90sSongs = newSongsOf90s;
+	}
+	
+	public void showSongs() {
+		
+	}
+}

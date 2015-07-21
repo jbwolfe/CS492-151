@@ -1,0 +1,30 @@
+
+public class ItalianHoagie extends Hoagie{
+
+	String[] meatsUsed =  {"Salami", "Pepperoni", "Boiled Ham", "Capicola"};
+	String[] cheesesUsed = { "Provolone" };
+	String[] vegetablesUsed = { "Lettuce", "Tomatoes", "Onions", "Banana Peppers" };
+	String[] condimentsUsed = { "Oil", "Vinegar" };
+	
+	@Override
+	void addMeat() {
+		
+	}
+
+	@Override
+	void addCheese() {
+		
+	}
+
+	@Override
+	void addVegetables() {
+		
+	}
+
+	@Override
+	void addCondiments() {
+		
+	}
+
+	
+}

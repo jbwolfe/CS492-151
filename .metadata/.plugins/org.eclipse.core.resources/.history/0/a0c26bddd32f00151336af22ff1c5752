@@ -1,0 +1,26 @@
+
+public abstract class Hoagie {
+	final void makeSandwich() {
+		cutBun();
+		
+		if(customerWantsMeat()) {
+			addMeat();
+		}
+		if(customerWantsCheese()) {
+			addCheese();
+		}
+		
+		wrapHoagie();
+	}
+	
+	abstract void addMeat();
+	abstract void addCheese();
+	
+	boolean customerWantsMeat() {
+		return true;
+	}
+	boolean customerWantsCheese() {
+		return true;
+	}
+	
+}

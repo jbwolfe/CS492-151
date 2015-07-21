@@ -1,0 +1,19 @@
+import java.util.ArrayList;
+import java.util.Enumeration;
+import java.util.Hashtable;
+import java.util.Iterator;
+
+public class DiscJockey {
+	SongsOfThe70s songsOf70s;
+	SongsOfThe80s songsOf80s;
+	SongsOfThe90s songsOf90s;
+	
+	public DiscJockey(SongsOfThe70s newSongsOf70s, 
+					  SongsOfThe80s newSongsOf80s,
+					  SongsOfThe90s newSongsOf90s) {
+
+		this.songsOf70s = newSongsOf70s;
+		this.songsOf80s = newSongsOf80s;
+		this.songsOf90s = newSongsOf90s;
+	}
+}
