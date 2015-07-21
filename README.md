@@ -2,6 +2,17 @@
 ###### (Incomplete list...)
 
 ---
+## Install
+Pull down the repository.
+
+```
+git clone https://github.com/jbwolfe/CS492-151.git
+```
+
+Open Eclipse and use the repository as the specified workspace.
+
+---
+## Covered Design Patterns
 
 #### Strategy Design Pattern
 #### Observer Design Pattern
