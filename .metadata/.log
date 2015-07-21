@@ -1373,3 +1373,16 @@ org.eclipse.core.internal.resources.ResourceException: Resource '/Interpreter/sr
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
 !SUBENTRY 1 org.eclipse.core.resources 4 368 2015-07-21 17:04:18.923
 !MESSAGE Resource '/Interpreter/src/DiscJockey.java' does not exist.
+
+!ENTRY org.eclipse.core.jobs 4 2 2015-07-21 17:09:28.429
+!MESSAGE An internal error occurred during: "LabelEventJob".
+!STACK 0
+org.eclipse.swt.SWTException: Device is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4491)
+	at org.eclipse.swt.SWT.error(SWT.java:4406)
+	at org.eclipse.swt.SWT.error(SWT.java:4377)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1097)
+	at org.eclipse.swt.widgets.Display.asyncExec(Display.java:593)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator.fireLabelEvent(GitLightweightDecorator.java:706)
+	at org.eclipse.egit.ui.internal.decorators.LabelEventJob.run(GitLightweightDecorator.java:776)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
